@@ -1,8 +1,8 @@
-import './App.css';
+import '../App.css';
 
 type DaysUntilProps = {
   fullName: string;
-  daysUntil: string;
+  daysUntil: number;
 };
 
 export const DaysUntil = ({ fullName, daysUntil }: DaysUntilProps) => {
