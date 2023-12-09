@@ -55,7 +55,7 @@ const App: React.FC = () => {
           value={info.day}
           onChange={(event) => changeHandler(event)}
         />
-        <label htmlFor="name">Month</label>
+        <label htmlFor="month">Month</label>
         <select
           name="month"
           id="month"
